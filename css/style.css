@@ -1,0 +1,147 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+@font-face {
+    font-family:"SalmonWhite" ;
+    src: url(../assets/SalmonWhite.otf);
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    background: url(../assets/OIP\ 1.png);
+}
+.container{
+    max-width: 111rem;
+    margin: auto;
+}
+
+
+
+.hero{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+h1{
+    font-family:"SalmonWhite", sans-serif;
+    font-size: 20.1rem;
+    font-weight: 400;
+    color: #6C0909;
+    transform: translateY(-10rem);
+}
+
+ul{
+    font-family: "catamaran",sans-serif;
+    font-size: 2rem;
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    gap: 1rem;
+    margin-top: 5rem;
+  
+}
+a{
+    text-decoration: none;
+    
+    color: #6C0909;
+    font-weight: bold;
+}
+
+.logo{
+    position: relative;
+    width: 14rem;
+    bottom: 10rem;
+
+}
+
+h2{
+    text-decoration: none;
+    color: #6C0909;
+    font-family: "catamaran",sans-serif;
+    font-size: 4rem;
+}
+.logos{
+    justify-content: space-between;
+    background: #EEC657;
+    align-items: center;
+
+    
+    
+}
+
+.IDVisual{
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: space-between;
+    height: 506.57px;
+    top: 1254px;
+    background: #EEC657;
+}
+
+.socialmidia{
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: space-between;
+    height: 898px;
+    top: 1914px;   
+    background: #EEC657;
+}
+
+.pp{
+    gap: 4rem;
+    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+    height: 570px;
+    top: 2923px;
+    background: #EEC657;
+}
+
+.pp1{
+    
+    height: 570px;
+    top: 2923px;
+    align-items: center;
+    background: #EEC657;
+}
+
+.ultima{
+    position: absolute;
+    right: 0;
+    top: 600rem;   
+}
+h3{
+    background: #EEC657;
+    width: 50rem;
+    top: 620rem;
+    
+    position: absolute;
+}
+h4,h3{
+    text-decoration: none;
+    color: #6C0909;
+    font-weight: 400;
+    justify-content: left;
+    font-family: "catamaran",sans-serif;
+    font-size: 3rem; 
+    
+}
+.rodape{
+    
+    
+    position: absolute;
+    top: 80rem;
+    width: 70rem;
+    top: 655rem;
+    
+    
+}
+
+
+
+
+
